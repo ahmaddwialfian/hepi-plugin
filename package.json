@@ -1,0 +1,18 @@
+{
+  "name": "hapi-plugin-alfian",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "start-dev": "nodemon src/server.js"
+  },
+  "author": "a-d-alfian",
+  "type": "commonjs",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2",
+    "nanoid": "^3.0.0",
+    "nodemon": "^2.0.22"
+  }
+}
